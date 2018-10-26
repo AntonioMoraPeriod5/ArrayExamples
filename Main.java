@@ -283,6 +283,21 @@ class Main
          if ((len5=s5.length()) >4);
          count5++;
         }
+        k=0; // previously defined
+        String[] task12Greater= new String[count5];
+        for (int i=0 ; i<ar5.length ; i++)
+            {
+                if (ar5[i].length() >5)
+                {
+                    task12Greater[k]=ar5[i];
+                    k++;
+                }
+            }
+ 
+        for (int i=0 ; i<task12Greater.length ; i++)
+            {
+                System.out.println(" 12 BOSS["+i+"] :"+task12Greater[i]);
+            }
         /*
          * Task 13
          * Create an array called monsterArray of 5 Monsters.
@@ -297,6 +312,7 @@ class Main
          * Use a for loop to print out the names of monster that start with
          * a vowel
          */
+        System.out.println("*** Task 13 ***");
         
          /*
           * Task 14
