@@ -3,7 +3,40 @@ public class recursionDriver
  
  public static int count(int n)
  {
-     
+   /*
+   System.out.println("*** Task 1 ***");
+   if (n==0)
+        return 0; 
+ 
+   if (n==1)
+       return 4;
+ 
+   return 4+count(n-1);
+   System.out.println("*** Task 2 ***");
+   if (n==0)
+   return 0; 
+
+ 
+   return 20+count(n-1);
+   System.out.println("*** Task 3 ***");
+   
+   System.out.println("*** Task 4 ***");
+  public static int countOdd(int n)
+  {
+   if (n<=0)
+     return 0;
+        
+  return n+countOdd(n-2);    
+  }
+  System.out.println("*** Task 5 ***");
+  public static int countEven(int n)
+  {
+  if (n<=0)
+    return 0;
+    
+  return n+countEven(n-1);
+  }   
+  */
  }
  
  
@@ -24,5 +57,7 @@ public class recursionDriver
  System.out.println("*** Task 1 ***");
  counted = count(10);
  System.out.println(counted);
+ 
+ 
  }
 }
